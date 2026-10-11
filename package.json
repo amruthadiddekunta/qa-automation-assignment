@@ -1,0 +1,19 @@
+{
+  "name": "qa-automation-assignment",
+  "version": "1.0.0",
+  "private": true,
+  "description": "RecruiterFlow QA Automation take-home using Playwright and TypeScript",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test tests/ui",
+    "test:api": "playwright test tests/api",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^22.15.30",
+    "dotenv": "^16.6.1",
+    "typescript": "^5.8.3"
+  }
+}
